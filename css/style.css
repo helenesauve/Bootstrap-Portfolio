@@ -41,3 +41,28 @@
 .column2 {
     border-left: 6px solid var(--dark);
 }
+
+.hori {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+}
+
+.p1 {
+    background-image: url("../images/coffee.jpg");
+    background-size: 100%;
+}
+
+.p2 {
+    background-image: url("../images/mountain.jpg");
+    background-size: 100%;
+}
+
+.p3 {
+    background-image: url("../images/friends.jpg");
+    background-size: 100%;
+}
+
+.p4 {
+    background-image: url("../images/laptop.jpg");
+    background-size: 100%;
+}
