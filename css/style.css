@@ -1,0 +1,19 @@
+.jumbotron {
+    display: flex;
+    text-align: center;
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.jumbotron h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    background-color: pink;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
