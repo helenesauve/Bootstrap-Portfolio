@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-  }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 :root {
     --main-colour: #FFE4E1;
     --dark: black;
     --hover-colour: lightgrey;
-  }
+}
 
 .jumbotron {
     display: flex;
@@ -21,4 +21,10 @@
 .jumbotron h1 {
     font-size: 30px;
     background-color: #FFE4E1;
+}
+
+.image img {
+    height: 250px;
+    float: left;
+    padding: 10px;
 }
