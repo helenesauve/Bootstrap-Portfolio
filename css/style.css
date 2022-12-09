@@ -9,6 +9,11 @@
     --hover-colour: lightgrey;
 }
 
+.nav {
+    background-color: gray;
+    padding: 10px;
+}
+
 .jumbotron {
     display: flex;
     text-align: center;
@@ -27,4 +32,12 @@
     height: 250px;
     float: left;
     padding: 10px;
+}
+
+.column1 {
+    text-align: right;
+}
+
+.column2 {
+    border-left: 6px solid var(--dark);
 }
