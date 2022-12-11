@@ -216,7 +216,7 @@ webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
 }
 .footer_social_area a:hover,
 .footer_social_area a:focus {
-    color: #ffffff;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 @-webkit-keyframes bi-cycle {
