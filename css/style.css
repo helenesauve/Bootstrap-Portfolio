@@ -62,6 +62,7 @@
 .hori {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .p1 {
@@ -94,6 +95,7 @@
     border: 2px white solid;
 }
 
+
 .introduction {
     display: inline-block;
     background-color: var(--main-colour);
@@ -101,7 +103,7 @@
     padding: 5px;
 }
 
-.container a:hover {
+.grid a:hover {
     cursor: pointer
 }
 
