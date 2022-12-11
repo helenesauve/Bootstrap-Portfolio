@@ -9,6 +9,8 @@
     --hover-colour: lightgrey;
 }
 
+/* Navbar */
+
 .navbar {
     background-color: gray !important;
     padding: 10px;
@@ -26,10 +28,12 @@
     font-size: 20px;
 }
 
+/* Jumbotron */
+
 .jumbotron {
     display: flex;
     text-align: center;
-    background-image: url(../images/helene.jpg);
+    background-image: url("../images/helene.jpg");
     background-size: cover;
     height: 300px;
     width: 100%;
@@ -40,18 +44,14 @@
     background-color: #FFE4E1;
 }
 
-.image img {
-    height: 250px;
-    float: left;
-    padding: 10px;
-}
-
+/* Work grid */
 .column1 {
     text-align: right;
 }
 
 .column2 {
     border-left: 6px solid var(--dark);
+    padding: 40px;
 }
 
 .hori {
@@ -279,4 +279,12 @@ ol li, ul li {
 ol, ul {
     margin: 0;
     padding: 0;
+}
+
+/* website responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .column1 h2 {
+        text-align: center;
+    }
 }
