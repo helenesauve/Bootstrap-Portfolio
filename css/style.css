@@ -35,6 +35,7 @@
     text-align: center;
     background-image: url("../images/helene.jpg");
     background-size: cover;
+    background-position: center;
     height: 300px;
     width: 100%;
 }
@@ -47,6 +48,10 @@
 /* Work grid */
 .column1 {
     text-align: right;
+}
+
+.column1 h2 {
+    padding: 40px;
 }
 
 .column2 {
@@ -62,21 +67,25 @@
 .p1 {
     background-image: url("../images/coffee.jpg");
     background-size: 100%;
+    background-position: center;
 }
 
 .p2 {
     background-image: url("../images/mountain.jpg");
     background-size: 100%;
+    background-position: center;
 }
 
 .p3 {
     background-image: url("../images/friends.jpg");
     background-size: 100%;
+    background-position: center;
 }
 
 .p4 {
     background-image: url("../images/laptop.jpg");
     background-size: 100%;
+    background-position: center;
 }
 
 .grid {
@@ -85,7 +94,7 @@
     border: 2px white solid;
 }
 
-.grid h2 {
+.introduction {
     display: inline-block;
     background-color: var(--main-colour);
     margin: 5px;
