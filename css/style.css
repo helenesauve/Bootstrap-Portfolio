@@ -85,6 +85,13 @@
     border: 2px white solid;
 }
 
+.grid h2 {
+    display: inline-block;
+    background-color: var(--main-colour);
+    margin: 5px;
+    padding: 5px;
+}
+
 .container a:hover {
     cursor: pointer
 }
