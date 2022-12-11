@@ -14,6 +14,12 @@
     padding: 10px;
 }
 
+.navigation a {
+   color: black;
+   background-color: #FFE4E1;
+   font-size: 20px;
+}
+
 .jumbotron {
     display: flex;
     text-align: center;
